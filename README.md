@@ -71,6 +71,8 @@ for this implementation, both the API project (TemperatureServer) and the Consol
 the image below shows a screenshot of the testing.
 
 ![image](https://github.com/user-attachments/assets/cf5dbf24-bb48-4d64-b372-72c0c32c6040)
+![image](https://github.com/user-attachments/assets/37c3242c-92b8-42e7-b1ff-8765c1d21463)
+
 
 
 
