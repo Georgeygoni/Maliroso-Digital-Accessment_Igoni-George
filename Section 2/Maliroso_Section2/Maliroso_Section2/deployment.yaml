@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Maliroso_Section2-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: Maliroso_Sectionn2
+  template:
+    metadata:
+      labels:
+        app: Maliroso_Section2
+    spec:
+      containers:
+      - name: Malriso_Section2
+        image: Malriso_Section2:latest
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: Malriso_Section2-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: Malriso_Section2
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80

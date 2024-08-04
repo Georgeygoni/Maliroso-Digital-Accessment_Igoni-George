@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkDevices", "NetworkDevices\NetworkDevices.csproj", "{906E81AD-1BC0-4222-9529-4C257D7EFE14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{906E81AD-1BC0-4222-9529-4C257D7EFE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906E81AD-1BC0-4222-9529-4C257D7EFE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906E81AD-1BC0-4222-9529-4C257D7EFE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906E81AD-1BC0-4222-9529-4C257D7EFE14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6256704-0792-4B6C-85FC-0ACF93B5B0B0}
+	EndGlobalSection
+EndGlobal
